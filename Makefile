@@ -9,7 +9,7 @@ endif
 
 # Target for building Docker image
 build:
-	docker build -t $(IMAGE_NAME) .
+	docker build --progress=plain --no-cache -t $(IMAGE_NAME) .
 
 # Target for running Docker container in the background and exposing port 5432
 run:
