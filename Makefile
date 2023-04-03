@@ -13,11 +13,11 @@ build:
 
 # Target for running Docker container in the background and exposing port 5432
 run:
-	docker run -d -p $(PORT):5432 --name $(IMAGE_NAME)_$(PORT) $(IMAGE_NAME)
+	docker run -d -p $(PORT):5432 --name $(IMAGE_NAME) $(IMAGE_NAME)
 
 stop:
-	docker stop $(IMAGE_NAME)_$(PORT)
-	docker rm $(IMAGE_NAME)_$(PORT)
+	docker stop $(IMAGE_NAME)
+	docker rm $(IMAGE_NAME)
 
 stop-all:
 	docker ps -q | xargs -L1 docker rm -f
