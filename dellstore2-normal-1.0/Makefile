@@ -1,3 +1,3 @@
-IMAGE_NAME = dellstore
+PROJECT = dellstore
 
 include ../Makefile

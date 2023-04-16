@@ -1,3 +1,3 @@
-IMAGE_NAME = pagila
+PROJECT = pagila
 
 include ../Makefile

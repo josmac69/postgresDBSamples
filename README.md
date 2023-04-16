@@ -16,3 +16,13 @@ A collection of sample databases for PostgreSQL.
 ## Other Resources
 
 - http://www.databaseanswers.org/data_models/
+
+## Usage
+
+* All actions are done using make commands
+  * build a project - `make build PROJECT=adventureworks`
+  * start postgresql database - `make run-postgresql PROJECT=adventureworks`
+    * this command starts a docker container with the database and exposes the port 5432 - container runs in the background
+  * stop postgresql database - `make stop-postgresql PROJECT=adventureworks`
+  * stop all running containers - `make stop-all`
+*

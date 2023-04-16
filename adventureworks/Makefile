@@ -1,3 +1,3 @@
-IMAGE_NAME = adventureworks
+PROJECT = adventureworks
 
 include ../Makefile
