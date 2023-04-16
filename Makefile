@@ -1,6 +1,7 @@
 .PHONY: build \
 	run-postgresql \
 	stop-postgresql \
+	run-psql \
 	stop-all
 
 PORT ?= 5432

@@ -25,4 +25,5 @@ A collection of sample databases for PostgreSQL.
     * this command starts a docker container with the database and exposes the port 5432 - container runs in the background
   * stop postgresql database - `make stop-postgresql PROJECT=adventureworks`
   * stop all running containers - `make stop-all`
-*
+* to access running PostgreSQL container and connect to the database use `make run-psql PROJECT=adventureworks`
+
